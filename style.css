@@ -1,0 +1,153 @@
+body{
+    background-image: url('images/2.jpg');
+}
+#conteneur{
+    width:962px;
+    margin:auto;
+}
+
+/* Header */
+
+#entete{
+    width:962px;
+    height:65px;
+}
+
+figure {
+    margin:0px;
+    padding:0px;
+}
+
+#search {
+    width:300px;
+    float:right;
+    margin:0px;
+    padding:0px;
+}
+
+#search p {
+    margin:0px;
+    text-align:right;
+}
+
+.condec
+{
+    text-align:right;
+    margin-left:700px;
+}
+/* Menu */
+
+#navig{
+    width:962px;
+    height:45px;
+    border:solid 1px black;
+    /*border-radius:10px;*/
+    box-shadow: 3px 3px 6px gray;
+    text-align:center;
+    background-image: url('images/fond_jaune.png');
+}
+#navig li{
+    display:inline-block;
+    margin-right:30px;
+}
+#navig a {
+    text-decoration:none;
+    color:rgb(0, 55, 0);
+    font-weight:bold;
+}
+#mask1{
+    width:962px;
+    height:40px;
+    background-color: rgba(0, 55, 0, 0.6);
+    position: relative;
+    top:180px;
+    font-size:18px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    line-height:40px;
+    vertical-align:middle;
+}
+
+ul ul{display: none;} 
+li:hover  ul.niveau2{display:inline-block;}
+
+/* Corps */
+
+#content{
+    width:962px;
+    min-height:450px;
+    border:solid 1px black;
+    /*border-radius:10px;*/
+    box-shadow: 3px 3px 3px gray;
+    margin-top:5px;
+    overflow:auto;
+    text-align:center;
+}
+
+table
+{
+    margin:auto;
+}
+
+/* Footer */
+
+#bas{
+    width:962px;
+    height:65px;
+    border:dashed 1px black;
+    box-shadow: 3px 3px 6px gray;
+    margin-top:5px;
+    display: flex;
+    background-image: url('images/fond_jaune.png');
+}
+
+#bas p
+{
+    font-size: 0.8em;
+}
+
+#bas a
+{
+    color:black;
+}
+
+#bas h1
+{
+    font-size: 1.1em;
+}
+
+
+#lang
+{
+    width: 20%;
+    text-align:left;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+
+#realiser
+{
+    width: 40%;
+    text-align:center;
+    margin-left:80px;
+
+}
+
+#reseau
+{
+    width: 40%;
+    text-align:right;
+    text-decoration:none;
+    margin-right:20px;
+    margin-top:15px;
+}
+
+.res
+{
+    border: 1px  black solid;
+    border-radius:360px;
+    height:30px;
+    width:30px;
+}
